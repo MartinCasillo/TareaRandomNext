@@ -15,6 +15,9 @@ public class Tarea5 {
             contador ++;
             if(numeroIngresado == nxt){
                 System.out.println("Ganaste !!");
+                break;
+            }else{
+                System.out.println("No acerto, siga particiapando");
             }
         }while(contador < 3);
     }
